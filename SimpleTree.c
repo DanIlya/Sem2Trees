@@ -19,7 +19,6 @@ tree_element* create_tree_element(int i)
      p ->value = i;
      p -> left = NULL;
      p->right = NULL;
-     //p->parent = NULL;
      return p;
 }
 
